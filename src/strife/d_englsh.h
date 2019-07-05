@@ -153,7 +153,7 @@
 #define HUSTR_8         "vtcnyjcnm 8: ghbtvyfz" // [rus] МЕСТНОСТЬ 8: Приемная
 #define HUSTR_9         "vtcnyjcnm 9: pfvjr (wbnfltkm ghjuhfvvbcnf)" // [rus] МЕСТНОСТЬ 9: Замок (Цитадель Программиста)
 
-#define HUSTR_10        "vtcnyjcnm 10: yjdfz ,fpf cjghjnbdktybz" // [rus] МЕСТНОСТЬ 10: Новая база Сопротивления
+#define HUSTR_10        "vtcnyjcnm 10: yjdfz ,fpf cjgh>" // [rus] МЕСТНОСТЬ 10: Новая база Сопр.
 #define HUSTR_11        "vtcnyjcnm 11: gjuhfybxmt" // [rus] МЕСТНОСТЬ 11: Пограничье
 #define HUSTR_12        "vtcnyjcnm 12: [hfv jhfrekf" // [rus] МЕСТНОСТЬ 12: Храм Оракула
 #define HUSTR_13        "vtcnyjcnm 13: rfnfrjv,s" // [rus] МЕСТНОСТЬ 13: Катакомбы

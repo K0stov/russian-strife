@@ -871,11 +871,7 @@ void I_SetWindowTitle(char *title)
 
 void I_InitWindowTitle(void)
 {
-    char *buf;
-
-    buf = M_StringJoin(window_title, " - ", PACKAGE_STRING, NULL);
-    SDL_SetWindowTitle(screen, buf);
-    free(buf);
+    SDL_SetWindowTitle(screen, "Russian Strife");
 }
 
 // Set the application icon

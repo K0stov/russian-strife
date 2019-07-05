@@ -220,8 +220,8 @@ static rndmessage_t rndMessages[] =
             "crjhj yfib dhfub ,elen \n" // [rus] Скоро наши враги будут
             "eybxnj;tys!", // [rus] уничтожены!
 
-            "yt hfcckf,kzqcz> e yfc gj-ght;ytve \n" // [rus] Не расслабляйся. У нас по-прежнему
-            "[dfnftn ltk>", // [rus] хватает дел.
+            "yt hfcckf,kzqcz> e yfc \n" // [rus] Не расслабляйся. У нас
+            "gj-ght;ytve [dfnftn ltk>", // [rus] по-прежнему хватает дел.
 
             "v'qcbk ujdjhbn< xnj yf nt,z \n" // [rus] Мэйсил говорит, что на тебя 
             "ctqxfc dcz yflt;lf> bvtq 'nj \n" // [rus] сейчас вся надежда. Имей это
