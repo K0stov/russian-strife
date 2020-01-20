@@ -864,7 +864,7 @@ boolean P_UseSpecialLine(mobj_t* thing, line_t* line, int side)
         }
         else
         {
-            thing->player->message = DEH_String("ye;ty pjkjnjq rk.x");
+            thing->player->message = DEH_String("ye;ty pjkjnjq rk.x"); // [rus] Нужен золотой ключ
             S_StartSound(thing, sfx_oof);
         }
         break;
@@ -914,7 +914,7 @@ boolean P_UseSpecialLine(mobj_t* thing, line_t* line, int side)
         }
         else
         {
-            thing->player->message = DEH_String("ye;ty rk.x");
+            thing->player->message = DEH_String("ye;ty rk.x"); // [rus] Нужен ключ
             S_StartSound(thing, sfx_oof);
         }
         break;
@@ -989,7 +989,7 @@ boolean P_UseSpecialLine(mobj_t* thing, line_t* line, int side)
         // haleyjd 09/25/10: S1 Lower Floor Blue Crystal
         if(!thing->player->cards[key_BlueCrystalKey])
         {
-            thing->player->message = DEH_String("ye;ty cbybq rhbcnfkk");
+            thing->player->message = DEH_String("ye;ty cbybq rhbcnfkk"); // [rus] Нужен синий кристалл
             S_StartSound(thing, sfx_oof);
         }
         else if(EV_DoFloor(line, lowerFloor))
@@ -1000,7 +1000,7 @@ boolean P_UseSpecialLine(mobj_t* thing, line_t* line, int side)
         // haleyjd 09/25/10: S1 Lower Floor Red Crystal
         if(!thing->player->cards[key_RedCrystalKey])
         {
-            thing->player->message = DEH_String("ye;ty rhfcysq rhbcnfkk");
+            thing->player->message = DEH_String("ye;ty rhfcysq rhbcnfkk"); // [rus] Нужен красный кристалл
             S_StartSound(thing, sfx_oof);
         }
         else if(EV_DoFloor(line, lowerFloor))
@@ -1015,7 +1015,7 @@ boolean P_UseSpecialLine(mobj_t* thing, line_t* line, int side)
             P_GiveItemToPlayer(thing->player, SPR_TOKN, MT_TOKEN_NEW_ACCURACY);
             P_ChangeSwitchTexture(line, 0);
             DEH_snprintf(usemessage, sizeof(usemessage),
-                DEH_String(",hfdj! ns ghjitk nhtybhjdre."));
+                DEH_String(",hfdj! ns ghjitk nhtybhjdre.")); // [rus] Браво! Ты прошел тренировку.
             thing->player->message = usemessage;
         }
         break;
@@ -1039,7 +1039,7 @@ boolean P_UseSpecialLine(mobj_t* thing, line_t* line, int side)
         
         // haleyjd: Strife used sprintf here, not a direct set.
         DEH_snprintf(usemessage, sizeof(usemessage), 
-                     "d[jlzott djj,ctybt jn xthyjuj lhjplf>>>");
+                     "d[jlzott djj,ctybt jn xthyjuj lhjplf>>>"); // [rus] Входящее сообщение от Черного дрозда...
         thing->player->message = usemessage;
 
         break;

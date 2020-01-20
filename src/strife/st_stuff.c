@@ -551,14 +551,14 @@ boolean ST_Responder(event_t* ev)
                 for(i = 0; i < NUMCARDS; i++)
                     plyr->cards[i] = false;
 
-                plyr->message = DEH_String("rk.xb elfktys"); // [rus] Ключи удалены
+                plyr->message = DEH_String("elfktys rk.xb"); // [rus] Удалены ключи
             }
             else
             {
                 for(i = 0; i < NUMCARDS; i++)
                     plyr->cards[i] = true;
 
-                plyr->message = DEH_String("rk.xb lj,fdktys"); // [rus] Ключи добавлены
+                plyr->message = DEH_String("lj,fdktys rk.xb"); // [rus] Добавлены ключи
             }
         }
         else
@@ -566,7 +566,7 @@ boolean ST_Responder(event_t* ev)
             for(i = 0; i < FIRSTKEYSETAMOUNT; i++)
                 plyr->cards[i] = true;
 
-            plyr->message = DEH_String("rk.xb lj,fdktys"); // [rus] Ключи добавлены
+            plyr->message = DEH_String("lj,fdktys rk.xb"); // [rus] Добавлены ключи
         }
     }
     else if (cht_CheckCheat(&cheat_noclip, ev->data2))
