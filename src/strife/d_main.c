@@ -80,6 +80,8 @@
 
 #include "d_main.h"
 
+#include "w_merge.h"    // W_MergeFile
+
 //
 // D-DoomLoop()
 // Not a globally visible function,
