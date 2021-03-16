@@ -1012,7 +1012,7 @@ P_CrossSpecialLine
         GiveObjective(crosslinestr, 0);
 
         // Put up a message
-        thing->player->message = DEH_String("d[jlzott djj,ctybt>>>"); // [rus] Входящее сообщение...
+        thing->player->message = DEH_String("d[jlzott cjj,otybt>>>"); // [rus] Входящее сообщение...
         line->special = 0;
         break;
 
@@ -1040,7 +1040,7 @@ P_CrossSpecialLine
         GiveObjective(crosslinestr, 0);
 
         // Put up a message
-        thing->player->message = DEH_String("d[jlzott djj,ctybt jn xthyjuj lhjplf>>>"); // [rus] Входящее сообщение от Черного дрозда...
+        thing->player->message = DEH_String("d[jlzott cjj,otybt jn xthyjuj lhjplf>>>"); // [rus] Входящее сообщение от Черного дрозда...
         line->special = 0;
         break;
 
@@ -1079,7 +1079,7 @@ P_CrossSpecialLine
         GiveObjective(crosslinestr, 0);
 
         // Put up a message
-        thing->player->message = DEH_String("d[jlzott djj,ctybt jn xthyjuj lhjplf>>>"); // [rus] Входящее сообщение от Черного дрозда...
+        thing->player->message = DEH_String("d[jlzott cjj,otybt jn xthyjuj lhjplf>>>"); // [rus] Входящее сообщение от Черного дрозда...
         line->special = 0;
         break;
 
