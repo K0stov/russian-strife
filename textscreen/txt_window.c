@@ -563,7 +563,7 @@ void TXT_OpenWindowHelpURL(txt_window_t *window)
 txt_window_t *TXT_MessageBox(char *title, char *message, ...)
 {
     txt_window_t *window;
-    char buf[256];
+    char buf[1024]; // [rus] Увеличение размера сообщений для полного отображения русских символов UTF-8
     va_list args;
 
     va_start(args, message);
