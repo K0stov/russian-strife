@@ -55,7 +55,7 @@ static void OpenPromptWindow(txt_mouse_input_t *mouse_input)
     // Silently update when the shift key is held down.
     mouse_input->check_conflicts = !TXT_GetModifierState(TXT_MOD_SHIFT);
 
-    window = TXT_MessageBox(NULL, "Ïaµ8F=s OfenO=...");
+    window = TXT_MessageBox(NULL, "√¨a¬µ‚àûŒ¶‚â•œÉ Œ©Œ¥Œ±ŒìŒ¶¬∞‚â§ ‚àû‚àö¬∞Œ¶...");
 
     TXT_SetMouseListener(window, MousePressCallback, mouse_input);
 }
@@ -75,16 +75,16 @@ static void GetMouseButtonDescription(int button, char *buf, size_t buf_len)
     switch (button)
     {
         case 0:
-            M_StringCopy(buf, "Ô‡È«Ì", buf_len);
+            M_StringCopy(buf, "√Ø√†√©√á√≠", buf_len);
             break;
         case 1:
-            M_StringCopy(buf, "≈…«È«Ì", buf_len);
+            M_StringCopy(buf, "√Ö√â√á√©√á√≠", buf_len);
             break;
         case 2:
-            M_StringCopy(buf, "Ê…‡‰ÏÌÌ", buf_len);
+            M_StringCopy(buf, "√¶√â√†√§√¨√≠√≠", buf_len);
             break;
         default:
-            M_snprintf(buf, buf_len, "ËÏƒ≈Ë« #%i", button + 1);
+            M_snprintf(buf, buf_len, "√®√¨√Ñ√Ö√®√á #%i", button + 1);
             break;
     }
 }

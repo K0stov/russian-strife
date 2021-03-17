@@ -10897,7 +10897,7 @@ mobjinfo_t mobjinfo[NUMMOBJTYPES] =
         0,      //damage
         sfx_None,       //activesound
         0,      //flags
-        "rjvgmperiodnth_dpjhdfy",      //namepointer // [rus] Компьютер взорван
+        "rjvgm.nth_dpjhdfy",      //namepointer // [rus] Компьютер взорван
     },
 
     {       /*MT_TOKEN_QUEST28*/

@@ -714,7 +714,7 @@ void P_TouchSpecialThing(mobj_t* special, mobj_t* toucher)
     // use the first character to indicate that the player is full on items
     else if(pickupmsg[0] == '!')
     {
-        DEH_snprintf(pickupmsg, sizeof(pickupmsg), "ytn vtcnf d bydtynfht."); // [rus] Нет места в инвентаре.
+        DEH_snprintf(pickupmsg, sizeof(pickupmsg), "ytn vtcnf d bydtynfht>"); // [rus] Нет места в инвентаре.
         player->message = pickupmsg;
         return;
     }

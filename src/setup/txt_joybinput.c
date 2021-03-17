@@ -191,7 +191,7 @@ static void PromptWindowClosed(TXT_UNCAST_ARG(widget), TXT_UNCAST_ARG(joystick))
 
 static void OpenErrorWindow(void)
 {
-    TXT_MessageBox(NULL, "Please configure a controller first!");
+    TXT_MessageBox(NULL, "ìσ Γ√ß≡αφε ≤±≥≡εΘ±≥Γε!");
 }
 
 static void OpenPromptWindow(txt_joystick_input_t *joystick_input)
@@ -220,7 +220,7 @@ static void OpenPromptWindow(txt_joystick_input_t *joystick_input)
 
     // Open the prompt window
 
-    window = TXT_MessageBox(NULL, "�a�8F=s OfenO=...");
+    window = TXT_MessageBox(NULL, "ìaµ∞Φ≥σ Ωφε∩Ω≤...");
 
     TXT_SDL_SetEventCallback(EventCallback, joystick_input);
     TXT_SignalConnect(window, "closed", PromptWindowClosed, joystick);
@@ -242,7 +242,7 @@ static void TXT_JoystickInputSizeCalc(TXT_UNCAST_ARG(joystick_input))
 static void GetJoystickButtonDescription(int vbutton, char *buf,
                                          size_t buf_len)
 {
-    M_snprintf(buf, buf_len, "������ #%i",
+    M_snprintf(buf, buf_len, "èìÄÅèÇ #%i",
                PhysicalForVirtualButton(vbutton) + 1);
 }
 

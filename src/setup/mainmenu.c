@@ -141,7 +141,7 @@ static void QuitConfirm(void *unused1, void *unused2)
     window = TXT_NewWindow(NULL);
 
     TXT_AddWidgets(window, 
-                   label = TXT_NewLabel("é√⌡εΣ Φτ ∩≡επ≡α∞∞√ φα±≥≡εσΩ.\næε⌡≡αφΦ≥ⁿ Γφσ±σφφ√σ Φτ∞σφσφΦ?"),
+                   label = TXT_NewLabel("é√⌡εΣ Φτ ∩≡επ≡α∞∞√ φα±≥≡εσΩ.\næε⌡≡αφΦ≥ⁿ Γφσ±σφφ√σ Φτ∞σφσφΦ ?"),
                    TXT_NewStrut(24, 0),
                    yes_button = TXT_NewButton2(" æε⌡≡αφΦ≥ⁿ    ", DoQuit, DoQuit),
                    no_button = TXT_NewButton2(" ìσ ±ε⌡≡αφ ≥ⁿ ", DoQuit, NULL),
@@ -286,7 +286,7 @@ static void SetWindowTitle(void)
 {
     char *title;
 
-    title = M_StringReplace("Russian Strife Setup",
+    title = M_StringReplace(PACKAGE_NAME " Setup " PACKAGE_VERSION,
                             "Doom",
                             GetGameTitle());
 

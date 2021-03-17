@@ -2653,7 +2653,7 @@ void P_FreePrisoners(void)
 {
     int i;
 
-    DEH_snprintf(pmsgbuffer, sizeof(pmsgbuffer), "You've freed the prisoners!");
+    DEH_snprintf(pmsgbuffer, sizeof(pmsgbuffer), "gktyybrb jcdj,j;ltys!"); // [rus] Пленники освобождены!
 
     for(i = 0; i < MAXPLAYERS; i++)
     {
@@ -2673,7 +2673,7 @@ void P_DestroyConverter(void)
 {
     int i;
 
-    DEH_snprintf(pmsgbuffer, sizeof(pmsgbuffer), "You've destroyed the Converter!");
+    DEH_snprintf(pmsgbuffer, sizeof(pmsgbuffer), "rjydthnth eybxnj;ty!"); // [rus] Конвертер уничтожен!
 
     for(i = 0; i < MAXPLAYERS; i++)
     {
