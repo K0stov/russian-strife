@@ -377,7 +377,7 @@ void ConfigKeyboard(void)
     TXT_SetColumnWidths(window, 15, 8, 2, 15, 8);
 
     TXT_AddWidget(window, TXT_NewSeparator("äΓΦµσφΦσ"));
-    AddKeyControl(window, "äΓΦµσφΦσ Γ∩σ≡σΣ", &key_up);
+    AddKeyControl(window, "äΓΦµσφΦσ Γ∩σ≡σΣ ", &key_up);
     TXT_AddWidget(window, TXT_TABLE_EMPTY);
     AddKeyControl(window, "üεΩε∞ ΓδσΓε", &key_strafeleft);
 
