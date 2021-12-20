@@ -132,7 +132,7 @@ void ConfigSound(void)
         TXT_If(gamemission == doom,
             TXT_NewRadioButton("PC speaker effects", &snd_sfxdevice,
                                SNDDEVICE_PCSPEAKER)),
-        TXT_NewRadioButton("äΦφα∞ΦΩ Åè",
+        TXT_NewRadioButton("ûΦ⌠≡εΓ√σ τΓ≤ΩΦ",
                            &snd_sfxdevice,
                            SNDDEVICE_SB),
         TXT_If(gamemission == doom || gamemission == heretic
