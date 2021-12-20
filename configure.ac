@@ -1,4 +1,4 @@
-AC_INIT(Russian Strife, 1.1.0,
+AC_INIT(Russian Strife, 1.1.2,
         sfkostoski@gmail.com, russian-strife)
 
 PACKAGE_SHORTNAME=${PACKAGE_NAME% Strife}

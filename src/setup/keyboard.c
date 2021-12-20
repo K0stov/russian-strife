@@ -203,7 +203,7 @@ static void ConfigExtraKeys(TXT_UNCAST_ARG(widget), TXT_UNCAST_ARG(unused))
         scrollpane = TXT_NewScrollPane(0, 13, table);
         TXT_AddWidget(window, scrollpane);
 
-        AddSectionLabel(table, "éτπδ Σ", false);
+        AddSectionLabel(table, "éτπδ Σ", false);
 
         AddKeyControl(table, "æ∞ε≥≡σ≥ⁿ ΓΓσ≡⌡", &key_lookup);
         AddKeyControl(table, "æ∞ε≥≡σ≥ⁿ ΓφΦτ", &key_lookdown);
@@ -227,10 +227,10 @@ static void ConfigExtraKeys(TXT_UNCAST_ARG(widget), TXT_UNCAST_ARG(unused))
         {
             AddKeyControl(table, "Å≡εδΦ±≥α≥ⁿ Γ φα≈αδε", &key_invhome);
             AddKeyControl(table, "Å≡εδΦ±≥α≥ⁿ Γ Ωεφσ÷", &key_invend);
-            AddKeyControl(table, "Query", &key_invquery);
+            AddKeyControl(table, "ÆσΩ≤∙ΦΘ ∩≡σΣ∞σ≥", &key_invquery);
             AddKeyControl(table, "ü≡ε±Φ≥ⁿ ∩≡σΣ∞σ≥", &key_invdrop);
             AddKeyControl(table, "ÅεΩατα≥ⁿ ε≡≤µΦσ", &key_invpop);
-            AddKeyControl(table, "ÅεΩατα≥ⁿ ταΣαφΦ", &key_mission);
+            AddKeyControl(table, "ÅεΩατα≥ⁿ ταΣαφΦ ", &key_mission);
             AddKeyControl(table, "ÅεΩατα≥ⁿ Ωδ■≈Φ", &key_invkey);
             AddKeyControl(table, "ê±∩εδⁿτεΓα≥ⁿ ∩≡σΣ∞σ≥", &key_invuse);
             AddKeyControl(table, "ü√±≥≡εσ δσ≈σφΦσ", &key_usehealth);
@@ -310,7 +310,7 @@ static void OtherKeysDialog(TXT_UNCAST_ARG(widget), TXT_UNCAST_ARG(unused))
     AddKeyControl(table, "äσ≥αδΦτα÷Φ ",                    &key_menu_detail);
     AddKeyControl(table, "ü√±≥≡εσ ±ε⌡≡αφσφΦσ",            &key_menu_qsave);
     AddKeyControl(table, "çαΩεφ≈Φ≥ⁿ Φπ≡≤",                &key_menu_endgame);
-    AddKeyControl(table, "æεεß∙σφΦ",                      &key_menu_messages);
+    AddKeyControl(table, "æεεß∙σφΦ ",                      &key_menu_messages);
     AddKeyControl(table, "ü√±≥≡α  ταπ≡≤τΩα",               &key_menu_qload);
     AddKeyControl(table, "é√⌡εΣ Φτ Φπ≡√",                 &key_menu_quit);
     AddKeyControl(table, "âα∞∞α-Ωε≡≡σΩ÷Φ ",                &key_menu_gamma);
@@ -320,7 +320,7 @@ static void OtherKeysDialog(TXT_UNCAST_ARG(widget), TXT_UNCAST_ARG(unused))
     AddKeyControl(table, "ô∞σφⁿ°Φ≥ⁿ ²Ω≡αφ",               &key_menu_decscreen);
     AddKeyControl(table, "æΩ≡Φφ°ε≥",                      &key_menu_screenshot);
 
-    AddKeyControl(table, "ÅεΩατα≥ⁿ ∩ε±δσΣφσσ ±εεß∙σφΦσ",  &key_message_refresh);
+    AddKeyControl(table, "ÅεΩατα≥ⁿ ∩ε±δ. ±εεß∙σφΦσ",  &key_message_refresh);
     AddKeyControl(table, "çαΩεφ≈Φ≥ⁿ τα∩Φ±ⁿ Σσ∞ε",         &key_demo_quit);
 
     AddSectionLabel(table, "èα≡≥α", true);

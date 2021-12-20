@@ -34,12 +34,12 @@ BEGIN
 		BLOCK "040904E4"
 		BEGIN
 			VALUE "FileVersion", "1.0.0"
-			VALUE "FileDescription", "Russian Strife 1.1.0"
+			VALUE "FileDescription", "Russian Strife 1.1.2"
 			VALUE "InternalName", "russian-strife"
 			VALUE "CompanyName", "sfkostoski@gmail.com"
 			VALUE "LegalCopyright", "GNU General Public License"
 			VALUE "ProductName", "Russian Strife"
-			VALUE "ProductVersion", "1.1.0"
+			VALUE "ProductVersion", "1.1.2"
 		END
 	END
 	BLOCK "VarFileInfo"

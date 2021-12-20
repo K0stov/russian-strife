@@ -106,7 +106,7 @@ static char *hexen_mage_skills[] =
 
 static char *strife_skills[] =
 {
-    "Éατ∞ΦφΩα", "ìεΓΦ≈εΩ", "éσ≥σ≡αφ", "₧δΦ≥α", "è≡εΓαΓα  ßεΘφ"
+    "Éατ∞ΦφΩα", "ìεΓΦ≈εΩ", "éσ≥σ≡αφ", "₧δΦ≥α", "è≡εΓαΓα  ßεΘφ "
 };
 
 static char *character_classes[] = { "Fighter", "Cleric", "Mage" };
